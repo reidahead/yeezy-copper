@@ -1,24 +1,24 @@
 var config = {
-  'desired_sizes': ['9', '9.5', '10', '8.5', '8', '10.5', '11', '11.5', '12'], // arranged in order of preference
+  'desired_sizes': ['11', '11.5', '10.5'], // arranged in order of preference
   'billing_different_than_shipping': true, // set to use diff billing address
-  'first_name': 'Hypebeast',
-  'last_name': 'McYeezus',
-  'street_address_1': '2 Supreme St.',
-  'street_address_2': 'Suite 6',
-  'city': 'New York',
-  'state': 'New York',
-  'zipcode': '10013',
-  'phone_number': 'XXX-XXX-XXXX', // must be in this format
-  'billing_address_1': 'Billionaire Boys',
+  'first_name': 'Bryan',
+  'last_name': 'Reid',
+  'street_address_1': '750 N Orleans St.',
+  'street_address_2': 'Ste 600',
+  'city': 'Chicago',
+  'state': 'Illinois',
+  'zipcode': '60654',
+  'phone_number': '860-966-9482', // must be in this format
+  'billing_address_1': '509 N Hartland Ct Boys',
   'billing_address_2': '',
-  'billing_city': 'Fairfax',
-  'billing_state': 'California',
-  'billing_zipcode': '90036',
-  'name_on_card': 'Hypebeast McYeezus',
-  'card_number': 'STEALMYIDENTITY101',
-  'expires_month': 'January', // must be full month name to match adidas.com
-  'expires_year': '2001',
-  'security_code': '404'
+  'billing_city': 'Chicago',
+  'billing_state': 'Illinois',
+  'billing_zipcode': '60622',
+  'name_on_card': 'Bryan Reid',
+  'card_number': '4744810067710975',
+  'expires_month': 'July', // must be full month name to match adidas.com
+  'expires_year': '2019',
+  'security_code': '082'
 };
 
 function placeOrder () {
